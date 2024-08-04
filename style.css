@@ -14,7 +14,7 @@
   background-color: rgb(2, 28, 28);
 }
 #display{
-  visibility: hidden;
+  display:none;
 }
 footer{
   display:none;
