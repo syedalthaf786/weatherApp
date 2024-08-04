@@ -86,7 +86,7 @@ const getCityCoordinates = () => {
 
 searchButton.addEventListener("click", () => 
 {
-    display.style.visibility="visible";
+    display.style.display="block";
     footer.style.display="block";
     getCityCoordinates()
 }
