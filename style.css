@@ -16,6 +16,9 @@
 #display{
   visibility: hidden;
 }
+footer{
+  display:none;
+}
 .bg{
   background:rgba(0, 0, 0,.9);
 }
