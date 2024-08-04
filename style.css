@@ -1,0 +1,59 @@
+/* Import Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.current-weather img {
+  max-width: 120px;
+  margin-top: -15px;
+  
+}
+.current-weather{
+  background-color: rgb(2, 28, 28);
+}
+#display{
+  visibility: hidden;
+}
+.bg{
+  background:rgba(0, 0, 0,.9);
+}
+svg {
+  font-family: 'Russo One', sans-serif;
+}
+
+svg text {
+  text-transform: uppercase;
+ animation: stroke 5s 2 alternate; 
+  font-size: 20px;
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(192, 192, 192, 0);
+  stroke-width: 2;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgb(128, 128, 128);
+  }
+  80% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(192, 192, 192, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(255, 255, 255, 1); /* Set fill to fully opaque white */
+    stroke: rgba(192, 192, 192, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
