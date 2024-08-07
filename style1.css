@@ -16,6 +16,10 @@
 .marker {
     transition: background-color 0.5s ease; /* Smooth color transition */
 }
+    #back{
+    float:right;
+
+}
 
 .marker-active {
     background-color: #ff0000; /* Active color (red) */
