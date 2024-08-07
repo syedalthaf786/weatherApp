@@ -3,4 +3,4 @@
 
 Here is the QR code for accessing the weather app:
 
-![QR Code](/storage/emulated/0/Download/qr-code.png)
+![QR Code](https://github.com/syedalthaf786/weatherApp/blob/main/qr-code.png)
