@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#map {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    /* visibility: hidden; */
+    /* margin-bottom: ; */
+}
+
+.marker {
+    transition: background-color 0.5s ease; /* Smooth color transition */
+}
+
+.marker-active {
+    background-color: #ff0000; /* Active color (red) */
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
