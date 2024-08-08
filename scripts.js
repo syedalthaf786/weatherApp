@@ -8,7 +8,7 @@ const API_KEY = "ae40ea0dd71e662bf5c7bd6cb840f20f"; // OpenWeatherMap API Key
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWZmdTQyMSIsImEiOiJjbHpqdWZoMzYwczdvMm1xeGxjaTRoa2I5In0.fVuWKDXMpxFg-C9EEv9l5Q'; // Replace with your Mapbox access token
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/standard-satellite',
+    style: 'mapbox://styles/mapbox/streets-v12',
     zoom:1,
     projection: "globe"
 });
